@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://6gx2gu02cvnc"]
+
+[node name="ui" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = -43.0
+offset_top = -26.0
+offset_right = 1198.0
+offset_bottom = 695.0
+color = Color(0.856123, 0.541128, 0.613106, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="msg" type="LineEdit" parent="CanvasLayer"]
+offset_left = 358.0
+offset_top = 461.0
+offset_right = 597.0
+offset_bottom = 492.0
+metadata/_edit_use_anchors_ = true
+
+[node name="send" type="Button" parent="CanvasLayer"]
+offset_left = 600.0
+offset_top = 461.0
+offset_right = 678.0
+offset_bottom = 493.0
+text = "send"
+metadata/_edit_use_anchors_ = true
+
+[node name="showup" type="TextEdit" parent="CanvasLayer"]
+offset_left = 359.0
+offset_top = 104.0
+offset_right = 680.0
+offset_bottom = 458.0
+editable = false
+metadata/_edit_use_anchors_ = true
